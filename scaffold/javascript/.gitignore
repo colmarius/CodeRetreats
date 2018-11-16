@@ -1,0 +1,4 @@
+# JavaScript
+/coverage
+/node_modules
+yarn-error.log
