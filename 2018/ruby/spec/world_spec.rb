@@ -13,5 +13,7 @@ RSpec.describe World do
   end
 
   it 'can evolve' do
+    world = World.new
+
   end
 end
