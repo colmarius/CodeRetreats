@@ -1,3 +1,8 @@
 ## JavaScript scaffold
 
-Base scaffold of a JavaScript project.
+Session 2:
+
+- TDD
+- Driver writes code
+- Navigator guides what code to be written
+- Switch each 10 minutes
