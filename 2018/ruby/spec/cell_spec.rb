@@ -10,4 +10,8 @@ RSpec.describe Cell do
     cell = Cell.new
     expect(cell.is_alive?).to eq(true)
   end
+
+  it 'can die' do
+
+  end
 end
