@@ -18,5 +18,6 @@ RSpec.describe Cell do
   end
 
   it 'cal live' do
+    cell = Cell.new
   end
 end
