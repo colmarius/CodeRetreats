@@ -21,6 +21,7 @@ RSpec.describe Cell do
     cell = Cell.new
     cell.die!
     cell.live!
+    expect(cell.is_alive?).to eq(true)
 
   end
 end

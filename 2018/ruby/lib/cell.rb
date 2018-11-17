@@ -12,6 +12,6 @@ class Cell
   end
 
   def live!
-    @alive = false
+    @alive = true
   end
 end
