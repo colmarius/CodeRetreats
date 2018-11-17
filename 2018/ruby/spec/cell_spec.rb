@@ -13,5 +13,7 @@ RSpec.describe Cell do
 
   it 'can die' do
     cell = Cell.new
+    cell.die!
+    expect(cell.is_alive?).to eq(false)
   end
 end

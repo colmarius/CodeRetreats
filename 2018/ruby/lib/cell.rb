@@ -1,5 +1,13 @@
 class Cell
+  def initialize
+    @alive = true
+  end
+
   def is_alive?
-    true
+    @alive
+  end
+
+  def die!
+    @alive = false
   end
 end
