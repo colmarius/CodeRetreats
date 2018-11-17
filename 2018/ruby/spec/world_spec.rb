@@ -11,4 +11,7 @@ RSpec.describe World do
     cell = world.state
     expect(cell.is_alive?).to eq(true)
   end
+
+  it 'can evolve' do
+  end
 end
