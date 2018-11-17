@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "version": "0.0.1",
+  "description": "Example JavaScript scaffold project.",
+  "main": "index.js",
+  "author": "Marius Colacioiu <marius.colacioiu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest src",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+  }
+}
