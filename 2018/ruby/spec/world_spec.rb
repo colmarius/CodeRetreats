@@ -8,5 +8,6 @@ RSpec.describe World do
 
   it 'with one cell which is alive' do
     world = World.new
+
   end
 end
