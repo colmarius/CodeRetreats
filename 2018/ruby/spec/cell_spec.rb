@@ -22,6 +22,5 @@ RSpec.describe Cell do
     cell.die!
     cell.live!
     expect(cell.is_alive?).to eq(true)
-
   end
 end
