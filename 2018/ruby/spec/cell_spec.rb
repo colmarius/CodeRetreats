@@ -12,6 +12,6 @@ RSpec.describe Cell do
   end
 
   it 'can die' do
-
+    cell = Cell.new
   end
 end
