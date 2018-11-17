@@ -15,5 +15,6 @@ RSpec.describe World do
 
   it 'can evolve' do
     world.evolve
+    cell = world.state
   end
 end
