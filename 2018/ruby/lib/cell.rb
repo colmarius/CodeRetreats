@@ -10,4 +10,8 @@ class Cell
   def die!
     @alive = false
   end
+
+  def live!
+    @alive = false
+  end
 end

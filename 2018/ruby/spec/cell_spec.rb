@@ -19,5 +19,8 @@ RSpec.describe Cell do
 
   it 'cal live' do
     cell = Cell.new
+    cell.die!
+    cell.live!
+
   end
 end
