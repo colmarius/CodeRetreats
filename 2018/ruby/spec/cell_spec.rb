@@ -16,4 +16,7 @@ RSpec.describe Cell do
     cell.die!
     expect(cell.is_alive?).to eq(false)
   end
+
+  it 'cal live' do
+  end
 end
